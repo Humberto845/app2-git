@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.7</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>15</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>view-app2</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>dribbles,glass_parallax,book,fade</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/aqua/</ImageTemplate>
+            <ImageTemplateName>Aqua</ImageTemplateName>
+            <ImageWidth>640</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishIndex>wowslider.html</PublishIndex>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#16B6FF</TemplateColor>
+            <TemplateFont>Tahoma</TemplateFont>
+            <TemplateName>aqua</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>E:/DAM/2 PARCIAL/Aplicaciones/app2/imgwoow/Google pixel XL (ALT).jpg</url>
+                <title>Google pixel XL (ALT)</title>
+                <filesize>52628</filesize>
+            </Image>
+            <Image>
+                <url>E:/DAM/2 PARCIAL/Aplicaciones/app2/imgwoow/IPhone 7 y 7 plus.jpg</url>
+                <title>IPhone 7 y 7 plus</title>
+                <filesize>26116</filesize>
+            </Image>
+            <Image>
+                <url>E:/DAM/2 PARCIAL/Aplicaciones/app2/imgwoow/Samsung Galaxy S7 Edge (alt).jpg</url>
+                <title>Samsung Galaxy S7 Edge (alt)</title>
+                <filesize>61608</filesize>
+            </Image>
+            <Image>
+                <url>E:/DAM/2 PARCIAL/Aplicaciones/app2/imgwoow/Huawei P9(alt).png</url>
+                <title>Huawei P9(alt)</title>
+                <filesize>509877</filesize>
+            </Image>
+            <Image>
+                <url>E:/DAM/2 PARCIAL/Aplicaciones/app2/imgwoow/aquaris x5 plus (m).jpg</url>
+                <title>aquaris x5 plus (m)</title>
+                <filesize>70179</filesize>
+            </Image>
+            <Image>
+                <url>E:/DAM/2 PARCIAL/Aplicaciones/app2/imgwoow/Honor 6X.jpg</url>
+                <title>Honor 6X</title>
+                <filesize>233215</filesize>
+            </Image>
+            <Image>
+                <url>E:/DAM/2 PARCIAL/Aplicaciones/app2/imgwoow/Huawei P9 Lite (m).png</url>
+                <title>Huawei P9 Lite (m)</title>
+                <filesize>635690</filesize>
+            </Image>
+            <Image>
+                <url>E:/DAM/2 PARCIAL/Aplicaciones/app2/imgwoow/Xiaomi Mi 5s.jpeg</url>
+                <title>Xiaomi Mi 5s</title>
+                <filesize>33928</filesize>
+            </Image>
+            <Image>
+                <url>E:/DAM/2 PARCIAL/Aplicaciones/app2/imgwoow/BAJA.jpg</url>
+                <title>BAJA</title>
+                <filesize>51842</filesize>
+            </Image>
+            <Image>
+                <url>E:/DAM/2 PARCIAL/Aplicaciones/app2/imgwoow/BAJA1.jpg</url>
+                <title>BAJA1</title>
+                <filesize>67794</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

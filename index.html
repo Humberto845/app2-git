@@ -1,0 +1,383 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>segunda aplicacion</title>
+
+	<!--gupo CSS-->
+    <link rel="stylesheet" href="css/tema-app1.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+    <!--grupo JavaScript-->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/acciones.js"></script>	
+<script src="phonegap.js"></script>
+    <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+    
+    <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/samm2.jpg','imagenes/lg2.jpg')">
+
+    	<div data-role="page" id="Principal" data-theme="a">
+    	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>Telefonía celular </h1>
+        </div>
+        <div data-role="main" class="ui-content">
+        	<div data-role="collapsible" data-content-theme="false">
+            	<h1>Celular Samsung  </h1>
+                  <div>
+                   <p>Esta es mi imagen de perfil:</p>
+                   <br>
+                  </div>
+                  <div>
+                  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','imagenes/samm2.jpg',1)"><img src="imagenes/samm1.jpg" width="500" height="auto" id="Image6"></a>
+                  </div>
+                 </div>
+                 
+                 <div data-role="collapsible" data-content-theme="false">
+            	<h1>Celular LG</h1>
+                  <div>
+                   <p>Esta es mi imagen de perfil:</p>
+                   <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','imagenes/lg2.jpg',1)"><img src="imagenes/LG1.jpg" width="800" height="400" id="Image5"></a></p>
+                   <br>
+                  </div>
+                  <div></div>
+                 </div>
+                 
+                </div>
+                <div>
+                	<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+                    <li class="ui-first-child ui-last-child">
+                    	<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                    		<h2>Definición</h2>
+                        	<p>Se muestra una definicion de la telefonia celular</p>
+                    	</a>
+                    </li>
+                    <li class="ui-first-child ui-last-child">
+                    	<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                        	<h2>Historia de la telefonía celular</h2>
+                            <p>Se muestra la historia</p>
+                        </a>
+                    </li>
+                    <li class="ui-first-child ui-last-child">
+                     <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                     	<h2>Clasificación</h2>
+                        <p>Muestra la clasificacion de los celulares</p>
+                     </a>
+                    </li>
+                     <li class="ui-first-child ui-last-child">
+                     <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                     	<h2>Compañias</h2>
+                        <p>Muestra las compañias que ofresen este servicio</p>
+                     </a>
+                     </li>
+                     
+                     </ul>
+                     <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/google_pixel_xl_alt.jpg" alt="Google pixel XL (ALT)" title="Google pixel XL (ALT)" id="wows1_0"/></li>
+		<li><img src="data1/images/iphone_7_y_7_plus.jpg" alt="IPhone 7 y 7 plus" title="IPhone 7 y 7 plus" id="wows1_1"/></li>
+		<li><img src="data1/images/samsung_galaxy_s7_edge_alt.jpg" alt="Samsung Galaxy S7 Edge (alt)" title="Samsung Galaxy S7 Edge (alt)" id="wows1_2"/></li>
+		<li><img src="data1/images/huawei_p9alt.png" alt="Huawei P9(alt)" title="Huawei P9(alt)" id="wows1_3"/></li>
+		<li><img src="data1/images/aquaris_x5_plus_m.jpg" alt="aquaris x5 plus (m)" title="aquaris x5 plus (m)" id="wows1_4"/></li>
+		<li><img src="data1/images/honor_6x.jpg" alt="Honor 6X" title="Honor 6X" id="wows1_5"/></li>
+		<li><img src="data1/images/huawei_p9_lite_m.png" alt="Huawei P9 Lite (m)" title="Huawei P9 Lite (m)" id="wows1_6"/></li>
+		<li><img src="data1/images/xiaomi_mi_5s.jpg" alt="Xiaomi Mi 5s" title="Xiaomi Mi 5s" id="wows1_7"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/baja.jpg" alt="wow slider" title="BAJA" id="wows1_8"/></a></li>
+		<li><img src="data1/images/baja1.jpg" alt="BAJA1" title="BAJA1" id="wows1_9"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Google pixel XL (ALT)"><span><img src="data1/tooltips/google_pixel_xl_alt.jpg" alt="Google pixel XL (ALT)"/>1</span></a>
+		<a href="#" title="IPhone 7 y 7 plus"><span><img src="data1/tooltips/iphone_7_y_7_plus.jpg" alt="IPhone 7 y 7 plus"/>2</span></a>
+		<a href="#" title="Samsung Galaxy S7 Edge (alt)"><span><img src="data1/tooltips/samsung_galaxy_s7_edge_alt.jpg" alt="Samsung Galaxy S7 Edge (alt)"/>3</span></a>
+		<a href="#" title="Huawei P9(alt)"><span><img src="data1/tooltips/huawei_p9alt.png" alt="Huawei P9(alt)"/>4</span></a>
+		<a href="#" title="aquaris x5 plus (m)"><span><img src="data1/tooltips/aquaris_x5_plus_m.jpg" alt="aquaris x5 plus (m)"/>5</span></a>
+		<a href="#" title="Honor 6X"><span><img src="data1/tooltips/honor_6x.jpg" alt="Honor 6X"/>6</span></a>
+		<a href="#" title="Huawei P9 Lite (m)"><span><img src="data1/tooltips/huawei_p9_lite_m.png" alt="Huawei P9 Lite (m)"/>7</span></a>
+		<a href="#" title="Xiaomi Mi 5s"><span><img src="data1/tooltips/xiaomi_mi_5s.jpg" alt="Xiaomi Mi 5s"/>8</span></a>
+		<a href="#" title="BAJA"><span><img src="data1/tooltips/baja.jpg" alt="BAJA"/>9</span></a>
+		<a href="#" title="BAJA1"><span><img src="data1/tooltips/baja1.jpg" alt="BAJA1"/>10</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">bootstrap slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+                    </div>
+                    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+                     <div>
+                     	<img src="imagenes/logo.png" width="46" height="46">
+                     </div>
+                     <div>
+                      	<h4>Aplicación dos </h4>
+                        <h4>Humberto Clara Gomez</h4>
+                   
+                     </div>
+                    </div>
+                    </div>
+                    
+                    
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+                     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                      <h1>Definición</h1>
+                     </div>
+                     <div data-role="content" align="center">
+                      <div>
+                        <h2>TELEFONÍA CELULAR</h2>
+                        <P></p>
+                        <P align="justify">Entendemos por telefonía celular a aquel sistema de comunicación que se da a partir del uso de elementos pequeños o 'células' que se conocen como celulares. La telefonía celular es uno de los avances más importantes y difundidos en el mundo en los últimos años y su llegada a millones de personas tiene que ver con la facilidad y la comodidad que otorga a sus clientes para comunicarse desde cualquier lugar y a cualquier hora.</p>
+                        <P align="justify">telefonía móvil (o <strong>telefonía celular</strong>) </p>
+                        <div data-dobid="dfn">
+                          <div align="justify">Sistema de comunicación para la transmisión de sonidos a larga distancia que permite hacer y recibir llamadas desde cualquier lugar, siempre que sea dentro del área de cobertura del servicio que lo facilita.
+                        Se puede decir también que es un sistema de comunicación telefónica formado por una red de telefonía móvil o red de comunicación y los teléfonos móviles o celulares que permiten el acceso a la red.
+
+El teléfono móvil es llamado en la mayoría de los países latinoamericanos “celular” debido a que el servicio funciona a través de una red de celdas, en la que cada antena repetidora de señal es una célula.
+
+Los primeros sistemas de telefonía móvil se desarrollaron en los años 40 del siglo XX, en los Estados Unidos. Eran equipos con modulación AM que luego pasaron a FM y tan pesados que debían ser llevados en vehículos.
+
+A finales de los años 50 el científico ruso Leonid Kupriyanovich inventó un sistema de comunicación utilizando ondas de radio y con la posibilidad de cubrir hasta 30 km. Ese teléfono fue patentado y se convirtió en la base para una investigación posterior dando origen al llamado “Altay” que fue comercializado en la década de los 60 en muchas ciudades de la Unión Soviética. Ya en 1961 el mismo Kupriyanovich diseñó un terminal que cabía en la palma de la mano.
+                          </div>
+                        </div>
+                        <P><br>
+                        </p>
+                        
+                        <div data-role="collapsible" data-content-theme="false">
+            	<h1>Ejemplo 1                </h1>
+            	<div>
+                  <p>&nbsp;</p>
+                   <p><img src="imagenes/definicion.jpg"></p>
+                   <br>
+                  </div>
+                  <div></div>
+                 </div>
+                 
+                 <div data-role="collapsible" data-content-theme="false">
+            	<h1>Ejemplo 2                </h1>
+            	<div>
+                  <p>&nbsp;</p>
+                   <p><img src="imagenes/maxresdefault.jpg" width="600"></p>
+                   <br>
+                  </div>
+                  <div></div>
+                 </div>
+                 
+                </div>
+                
+                <div data-role="collapsible" data-content-theme="false">
+            	<h1>Ejemplo 3               </h1>
+            	<div>
+                  <p>&nbsp;</p>
+                   <p><img src="imagenes/149_112.gif"></p>
+                   <br>
+                  </div>
+                  <div></div>
+                 </div>
+                 
+                </div>
+                      </div>
+                     </div>
+                     <div data-role="footer" data-theme="a" data-position="fixed">
+                       <h4>Aplicacion Uno,HCG</h4>
+                     </div>
+                     </div>
+                    
+                    
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+                     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                      <h1>HISTORIA</h1>
+                     </div>
+                     <div data-role="content" align="center">
+                      <div>
+                       <h2>Historia de la telefonía celular</h2>
+                       <p align="justify">A los efectos de mostrar la evolución de la telefonía móvil en la historia se procederá a describir una breve reseña que muestra el avance de la misma:
+1843 – Un talentoso químico de nombre Michael Faraday comenzó un profundo estudio sobre la posible conducción de electricidad del espacio. Faraday expuso sus grandes avances respecto a la tecnología del siglo anterior, lo que ayudó en forma incalculable en el desarrollo de la telefonía celular.
+1876 - El teléfono es inventado por Alexander Graham Bell.
+1894 – Si bien la comunicación inalámbrica tiene sus raíces en la invención del radio por Nikolai Tesla en la década de 1880, formalmente fue presentado en 1894 por un joven italiano llamado Guglielmo Marconi.
+
+
+Cuando el usuario desea realizar una llamada, el teléfono celular envía un mensaje a la torre solicitando una conexión a un número de teléfono específico. Si la torre dispone de los suficientes recursos para permitir la comunicación, un dispositivo llamado "switch" conecta la señal del teléfono celular a un canal el la red de telefonía pública. La llamada en este momento toma un canal inalámbrico así como un canal en la red de telefonía pública que se mantendrán abiertos hasta que la llamada se concluya.
+
+Digamos que usted tiene un celular, lo enciende, y alguien trata de llamarle. La MTSO recibe la llamada, y trata de encontrarlo. Desde los primeros sistemas la MTSO lo encontraba activando su teléfono (utilizando uno de los canales de control, ya que su teléfono se encuentra siempre escuchando) en cada célula de la región hasta que su teléfono respondiera. Entonces la estación base y el teléfono decidirán cuál de los 59 canales en su teléfono celular usará. Ahora estará conectado a la estación base y puede empezar a hablar y escuchar.
+                      </div>
+                      </div>
+                      <div data-role="collapsible" data-content-theme="false">
+            	<h1>Ejemplo 2                </h1>
+            	<div>
+                  <p>&nbsp;</p>
+                   <p><img src="imagenes/h2.jpg"></p>
+                   <br>
+                  </div>
+                  <div></div>
+                 </div>
+                 
+                 <div data-role="collapsible" data-content-theme="false">
+            	<h1>Ejemplo 3                </h1>
+            	<div>
+                  <p>&nbsp;</p>
+                   <p><img src="imagenes/h3.jpg"></p>
+                   <br>
+                  </div>
+                  <div></div>
+                 </div>
+                 
+                 <div data-role="collapsible" data-content-theme="false">
+            	<h1>Ejemplo 4                </h1>
+            	<div>
+                  <p>&nbsp;</p>
+                   <p><img src="imagenes/h1.jpg"></p>
+                   <br>
+                  </div>
+                  <div></div>
+                 </div>
+                 
+                     <div data-role="footer" data-theme="a" data-position="fixed">
+                      <h4>Aplicacion Uno.HCG</h4>
+                     </div>
+                      </div>
+                      
+                      
+<div data-role="page" id="Pagina3" data-back-btn-text="true" data-theme="a">
+                     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                      <h1>Clasificacion</h1>
+                     </div>
+                     <div data-role="content" align="center">
+                      <div>
+                       <h2>GAMA ALTA</h2>
+                       <p align="justify">En este nivel encajan los smartphones que estén dotados con casi todos los elementos más evolucionados de la telefonía móvil Los mejores avances tecnológicos pueden aparecer en está gama para luego ser heredados con el tiempo a la gama media en menor medida.</p>
+                       <p align="justify">También pueden incluirse otros terminales no tan nuevos pero que siguen siendo una excelente opción en gama alta aunque no cumplan con el requisito del precio.</p>
+                       <div data-role="collapsible" data-content-theme="false">
+            	<h1>Ejemplo de gama alta              </h1>
+            	<div>
+                  <p>&nbsp;</p>
+                   <p><img src="imagenes/gamaAlta.jpg" width="600"></p>
+                   <br>
+                  </div>
+                  <div></div>
+                 </div>
+                      </div>
+                      <div>
+                      <h2> GAMA MEDIA</h2>
+                      <p align="justify">Los smartphones de media gama se caracterizan por tener pantallas de calidad, pero de menor tamaño, resolución y profundidad de pixeles por pulgada; en la mayoría de los casos funcionan con una versión anterior a la más actual de su sistema operativo; los procesadores no tienen la potencia de los que encontramos en gamas superiores, y las cámaras y fotográficas generalmente cuentan con menos cantidad de megapíxeles. En esta categoría también situaremos a cierto número de celulares que en su momento fueron considerados de alta gama, pero que se han quedado rezagados por los adelantos que se producen en la telefonía celular. </p>
+                      <div data-role="collapsible" data-content-theme="false">
+            	<h1>Ejemplo 1                </h1>
+            	<div>
+                  <p>&nbsp;</p>
+                   <p><img src="imagenes/gama media.jpg"></p>
+                   <br>
+                  </div>
+                  <div></div>
+                 </div>
+                      <p>&nbsp;</p>
+                      </div>
+                      <div>
+                      <h2> GAMA BAJA</h2>
+                      <div align="justify">En esta categoría distribuiremos los celulares inteligentes con plataformas que no dan soporte a muchas utilidades que tienen los teléfonos de otras gamas. Sus pantallas son de escasas dimensiones y resolución, poca memoria RAM y mínima capacidad de almacenamiento interno, cámaras VGA,menores herramientas, acceso a redes y aplicaciones, entre otros aspectos. Se diferencian de los teléfonos básicos (no inteligentes), por el hecho de permitir funcionalidades que van más allá de llamar y recibir llamadas. La clave de todo es que los smartphones trabajan con un sistema operativo informático móvil, dotado de una interfaz para el acceso a Internet, cuentas de correo electrónico y el ingreso de datos a través de un teclado QWERTY. Permiten instalación de programas, la lectura de documentos en distintos formatos y te ayudan a realizar tareas y organizar tus archivos personales. Están diseñados de manera muy sencilla para la fácil y rápida compenetración del usuario, los materiales de fabricación garantizan durabilidad y la batería generalmente es de gran rendimiento. </div>
+                      </div>
+                      <div data-role="collapsible" data-content-theme="false">
+            	<h1>Ejemplo 1                </h1>
+            	<div>
+                  <p>&nbsp;</p>
+                   <p><img src="imagenes/gama baja.jpg"></p>
+                   <br>
+                  </div>
+                  <div></div>
+                 </div>
+                      </div>
+                     <div data-role="footer" data-theme="a" data-position="fixed">
+                      <h4>Aplicacion Uno, HCG</h4>
+                     </div>
+                     </div>
+                     
+                     
+<div data-role="page" id="Pagina4" data-back-btn-text="true" data-theme="a">
+                     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                      <h1>Compañia que ofrece este servicio</h1>
+                     </div>
+                     <div data-role="content" align="center">
+                      <div>
+                       <h2>Compañias</h2>
+                       <p>&nbsp;</p>
+                      </div>
+                       
+                       <div data-role="collapsible" data-content-theme="false">
+            	<h1>TELCEL </h1>
+            	<div>
+                  <p>&nbsp;</p>
+                   <p><img src="imagenes/TELCEL.png" width="50%"></p>
+                   <br>
+                  </div>
+                  <div></div>
+                 </div>
+                 
+                 <div data-role="collapsible" data-content-theme="false">
+            	<h1>AT&T </h1>
+            	<div>
+                  <p>&nbsp;</p>
+                   <p><img src="imagenes/at&t.png" width="400"></p>
+                   <br>
+                  </div>
+                  <div></div>
+                 </div>
+                 
+                 <div data-role="collapsible" data-content-theme="false">
+            	<h1>Movistar </h1>
+            	<div>
+                  <p>&nbsp;</p>
+                   <p><img src="imagenes/movistar.png" width="500"></p>
+                   <br>
+                  </div>
+                  <div></div>
+                 </div>
+                 
+                 <div data-role="collapsible" data-content-theme="false">
+            	<h1>Unefon </h1>
+            	<div>
+                  <p>&nbsp;</p>
+                   <p><img src="imagenes/Unefon.png" width="500"></p>
+                   <br>
+                  </div>
+                  <div></div>
+                 </div>
+
+
+                 
+                      </div>
+                     <div data-role="footer" data-theme="a" data-position="fixed">
+                      <h4>Aplicacion Uno, HCG</h4>
+                     </div>
+                     </div>
+                     
+                  
+                                        
+</body>
+</html>
